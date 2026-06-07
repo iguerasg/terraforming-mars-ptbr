@@ -25,20 +25,42 @@ Arquivo recomendado:
 ## Instalação no Windows
 
 1. Baixe o ZIP da tradução.
-2. Extraia o ZIP.
-3. Abra a pasta extraída.
-4. Clique com o botão direito dentro da pasta e escolha **Abrir no Terminal** ou **Abrir PowerShell aqui**.
-5. Rode:
+
+2. Vá até a pasta **Downloads**.
+
+3. Extraia o ZIP.
+
+   Depois de extrair, você terá uma pasta chamada:
+
+       Terraforming_Mars_PTBR_v1.0.1_publico
+
+4. Abra essa pasta.
+
+   Não é necessário mover a pasta para dentro da pasta do jogo.
+
+5. Clique com o botão direito dentro da pasta extraída e escolha **Abrir no Terminal** ou **Abrir PowerShell aqui**.
+
+6. Rode:
 
        Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-6. Depois rode:
+7. Depois rode:
 
        .\instalar_windows.ps1
 
-7. Abra o jogo e selecione o idioma **English**.
+8. Aguarde a instalação terminar.
+
+9. Abra o jogo e selecione o idioma **English**.
 
 A versão 1.0.1 já inclui `xdelta3.exe`, então no Windows não é necessário instalar o xdelta3 separadamente.
+
+Se o instalador disser que não encontrou o jogo, confira se o jogo está instalado pela Steam no local padrão:
+
+    C:\Program Files (x86)\Steam\steamapps\common\Terraforming Mars
+
+Se estiver em outro local, rode o instalador informando o caminho do arquivo `data.unity3d` manualmente:
+
+    .\instalar_windows.ps1 -Caminho "D:\SteamLibrary\steamapps\common\Terraforming Mars\TerraformingMars_Data\data.unity3d"
 
 ## Instalação no Linux
 
