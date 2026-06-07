@@ -4,191 +4,100 @@ Tradução brasileira não oficial para **Terraforming Mars Digital**.
 
 Esta tradução coloca o jogo em **Português do Brasil** usando o idioma **English** do jogo.
 
-Depois de instalar, abra o jogo e selecione o idioma:
+Depois de instalar, selecione **English** nas opções de idioma. Mesmo marcado como English, o jogo ficará em português.
 
-    English
+## O que está traduzido
 
-Mesmo estando marcado como English, o jogo ficará em português.
-
----
-
-## O que está traduzido?
-
-- Menus
-- Interface
-- Cartas
-- Corporações
-- Projetos-padrão
-- Marcos e prêmios
-- Tabuleiro
-- Logs
-- Tutorial
-- Regras
-- Compêndio
-- Conquistas
-- Login online / AsmoConnect
-- Perfil online
-- Community Hub
-
----
+- Menus e interface
+- Cartas, corporações e projetos
+- Marcos, prêmios, tabuleiro e logs
+- Tutorial, regras, compêndio e conquistas
+- Login online, perfil online e Community Hub
 
 ## Download
 
-Baixe a tradução pela aba **Releases** deste repositório.
+Baixe pela aba **Releases** deste repositório.
 
-Arquivo da versão 1.0:
+Arquivo recomendado:
 
-    Terraforming_Mars_PTBR_v1.0_publico.zip
+    Terraforming_Mars_PTBR_v1.0.1_publico.zip
 
----
+## Instalação no Windows
 
-# Como instalar
-
-## Windows
-
-1. Baixe o arquivo:
-
-       Terraforming_Mars_PTBR_v1.0_publico.zip
-
-2. Extraia o arquivo ZIP.
-
+1. Baixe o ZIP da tradução.
+2. Extraia o ZIP.
 3. Abra a pasta extraída.
-
-4. Clique com o botão direito dentro da pasta e escolha:
-
-       Abrir no Terminal
-
-   ou:
-
-       Abrir PowerShell aqui
-
-5. Digite este comando:
+4. Clique com o botão direito dentro da pasta e escolha **Abrir no Terminal** ou **Abrir PowerShell aqui**.
+5. Rode:
 
        Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-6. Depois digite:
+6. Depois rode:
 
        .\instalar_windows.ps1
 
-7. Aguarde a instalação terminar.
+7. Abra o jogo e selecione o idioma **English**.
 
-8. Abra o jogo.
+A versão 1.0.1 já inclui `xdelta3.exe`, então no Windows não é necessário instalar o xdelta3 separadamente.
 
-9. Vá nas opções de idioma e escolha:
+## Instalação no Linux
 
-       English
+1. Baixe e extraia o ZIP.
+2. Instale o xdelta3.
 
-Pronto. O jogo deverá aparecer em Português do Brasil.
-
-### Observação para Windows
-
-Esta tradução não usa arquivo `.exe`.
-
-O instalador do Windows é um arquivo PowerShell:
-
-    instalar_windows.ps1
-
-Isso foi feito para deixar a instalação mais transparente e evitar executáveis desconhecidos.
-
----
-
-## Linux
-
-1. Baixe o arquivo:
-
-       Terraforming_Mars_PTBR_v1.0_publico.zip
-
-2. Extraia o arquivo ZIP.
-
-3. Instale o xdelta3:
+Ubuntu, Linux Mint, Zorin OS, Debian e derivados:
 
        sudo apt install xdelta3
 
-4. Abra o terminal dentro da pasta extraída.
+Fedora:
 
-5. Rode:
+       sudo dnf install xdelta
+
+Arch Linux e Manjaro:
+
+       sudo pacman -S xdelta3
+
+3. Abra o terminal dentro da pasta extraída.
+4. Rode:
 
        bash instalar_linux.sh
 
-6. Abra o jogo.
+5. Abra o jogo e selecione o idioma **English**.
 
-7. Selecione o idioma:
+## Instalação no macOS
 
-       English
-
-Pronto. O jogo deverá aparecer em Português do Brasil.
-
----
-
-## macOS
-
-1. Baixe o arquivo:
-
-       Terraforming_Mars_PTBR_v1.0_publico.zip
-
-2. Extraia o arquivo ZIP.
-
-3. Instale o xdelta pelo Homebrew:
+1. Baixe e extraia o ZIP.
+2. Instale o xdelta pelo Homebrew:
 
        brew install xdelta
 
-4. Abra o Terminal dentro da pasta extraída.
-
-5. Rode:
+3. Abra o Terminal dentro da pasta extraída.
+4. Rode:
 
        bash instalar_macos.sh
 
-6. Abra o jogo.
+5. Abra o jogo e selecione o idioma **English**.
 
-7. Selecione o idioma:
+## Como restaurar o jogo original
 
-       English
+Pela Steam:
 
-Pronto. O jogo deverá aparecer em Português do Brasil.
-
----
-
-# Como restaurar o jogo original
-
-O instalador cria um backup automático antes de modificar o jogo.
-
-Se quiser voltar ao original, você também pode usar a própria Steam:
-
-1. Clique com o botão direito no jogo na Steam.
+1. Clique com o botão direito no jogo.
 2. Vá em **Propriedades**.
 3. Vá em **Arquivos instalados**.
 4. Clique em **Verificar integridade dos arquivos**.
 
-A Steam irá restaurar os arquivos originais do jogo.
+A Steam irá restaurar os arquivos originais.
 
----
+## Observações
 
-# Problemas conhecidos
+- Esta é uma tradução feita por fã.
+- Não é uma tradução oficial.
+- O arquivo original `data.unity3d` não é distribuído.
+- A tradução usa patch `.xdelta`.
+- Se a Steam atualizar o jogo, pode ser necessário atualizar a tradução.
+- Os direitos de **Terraforming Mars Digital** pertencem aos seus respectivos proprietários.
 
-Se a Steam atualizar o jogo, a tradução pode parar de instalar.
+Fonte do xdelta3 incluído na versão Windows:
 
-Isso acontece porque o instalador verifica se o arquivo original é compatível antes de modificar o jogo.
-
-Se o jogo atualizar, pode ser necessário lançar uma nova versão da tradução.
-
----
-
-# Informações técnicas
-
-Hash SHA256 do arquivo ZIP da v1.0:
-
-    0d2e904fc6d52d02650b988703e35fae313d315a6077cad09c6da1e366f4c388
-
-A tradução usa um patch `.xdelta` aplicado sobre o arquivo original do jogo.
-
-O arquivo original `data.unity3d` não é distribuído neste pacote.
-
----
-
-# Aviso
-
-Esta é uma tradução feita por fã.
-
-Não é uma tradução oficial.
-
-Os direitos de **Terraforming Mars Digital** pertencem aos seus respectivos proprietários.
+    https://github.com/jmacd/xdelta-gpl/releases
