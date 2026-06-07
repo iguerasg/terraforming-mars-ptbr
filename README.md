@@ -95,6 +95,8 @@ A Steam irá restaurar os arquivos originais.
 - Não é uma tradução oficial.
 - O arquivo original `data.unity3d` não é distribuído.
 - A tradução usa patch `.xdelta`.
+- A versão Windows inclui `xdelta3.exe`.
+- O pacote inclui `README.md` e `LEIA-ME.txt` com instruções de instalação.
 - Se a Steam atualizar o jogo, pode ser necessário atualizar a tradução.
 - Os direitos de **Terraforming Mars Digital** pertencem aos seus respectivos proprietários.
 
