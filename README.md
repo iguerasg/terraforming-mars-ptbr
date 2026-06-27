@@ -2,126 +2,160 @@
 
 Tradução brasileira não oficial para **Terraforming Mars Digital**.
 
-Esta tradução coloca o jogo em **Português do Brasil** usando o idioma **English** do jogo.
+Esta versão usa um sistema runtime com **BepInEx**.  
+Ela **não modifica o arquivo `data.unity3d`** do jogo.
 
-Depois de instalar, selecione **English** nas opções de idioma. Mesmo marcado como English, o jogo ficará em português.
+Depois de instalar, mantenha o idioma do jogo como **English**.  
+Mesmo marcado como English, o jogo ficará em Português do Brasil.
 
-## O que está traduzido
+---
 
-- Menus e interface
-- Cartas, corporações e projetos
-- Marcos, prêmios, tabuleiro e logs
-- Tutorial, regras, compêndio e conquistas
-- Login online, perfil online e Community Hub
+## O que está traduzido?
+
+- Menus
+- Interface
+- Cartas
+- Corporações
+- Projetos-padrão
+- Marcos e prêmios
+- Tabuleiro
+- Logs
+- Tutorial
+- Regras
+- Compêndio
+- Conquistas
+- Login online / AsmoConnect
+- Perfil online
+- Community Hub
+
+Observação: alguns botões pequenos do login, como `Cancel` e `Continue`, ainda podem aparecer em inglês.
+
+---
 
 ## Download
 
-Baixe pela aba **Releases** deste repositório.
+Baixe a versão mais recente pela aba **Releases** deste repositório.
 
 Arquivo recomendado:
 
-    Terraforming_Mars_PTBR_v1.0.1_publico.zip
+`Terraforming_Mars_PTBR_Runtime_v1.0_BETA3.zip`
 
-## Instalação no Windows
+---
 
-1. Baixe o ZIP da tradução.
+## Como instalar
 
-2. Vá até a pasta **Downloads**.
+### Windows
 
-3. Extraia o ZIP.
+1. Baixe o ZIP.
+2. Extraia o arquivo.
+3. Abra a pasta extraída.
+4. Execute:
 
-   Depois de extrair, você terá uma pasta chamada:
+`instalar_windows.bat`
 
-       Terraforming_Mars_PTBR_v1.0.1_publico
+5. Abra o Terraforming Mars pela Steam.
+6. Deixe o idioma do jogo como **English**.
 
-4. Abra essa pasta.
+Pronto. O jogo deverá aparecer em Português do Brasil.
 
-   Não é necessário mover a pasta para dentro da pasta do jogo.
+---
 
-5. Clique com o botão direito dentro da pasta extraída e escolha **Abrir no Terminal** ou **Abrir PowerShell aqui**.
+### Linux / Steam Proton
 
-6. Rode:
-
-       Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-
-7. Depois rode:
-
-       .\instalar_windows.ps1
-
-8. Aguarde a instalação terminar.
-
-9. Abra o jogo e selecione o idioma **English**.
-
-A versão 1.0.1 já inclui `xdelta3.exe`, então no Windows não é necessário instalar o xdelta3 separadamente.
-
-Se o instalador disser que não encontrou o jogo, confira se o jogo está instalado pela Steam no local padrão:
-
-    C:\Program Files (x86)\Steam\steamapps\common\Terraforming Mars
-
-Se estiver em outro local, rode o instalador informando o caminho do arquivo `data.unity3d` manualmente:
-
-    .\instalar_windows.ps1 -Caminho "D:\SteamLibrary\steamapps\common\Terraforming Mars\TerraformingMars_Data\data.unity3d"
-
-## Instalação no Linux
-
-1. Baixe e extraia o ZIP.
-2. Instale o xdelta3.
-
-Ubuntu, Linux Mint, Zorin OS, Debian e derivados:
-
-       sudo apt install xdelta3
-
-Fedora:
-
-       sudo dnf install xdelta
-
-Arch Linux e Manjaro:
-
-       sudo pacman -S xdelta3
-
-3. Abra o terminal dentro da pasta extraída.
+1. Baixe o ZIP.
+2. Extraia o arquivo.
+3. Abra um terminal dentro da pasta extraída.
 4. Rode:
 
-       bash instalar_linux.sh
+`bash instalar_linux_proton.sh`
 
-5. Abra o jogo e selecione o idioma **English**.
+5. Na Steam, abra:
 
-## Instalação no macOS
+`Terraforming Mars > Propriedades > Geral > Opções de inicialização`
 
-1. Baixe e extraia o ZIP.
-2. Instale o xdelta pelo Homebrew:
+6. Cole esta linha:
 
-       brew install xdelta
+`WINEDLLOVERRIDES="winhttp=n,b" %command%`
 
-3. Abra o Terminal dentro da pasta extraída.
-4. Rode:
+7. Abra o jogo pela Steam.
+8. Deixe o idioma como **English**.
 
-       bash instalar_macos.sh
+---
 
-5. Abra o jogo e selecione o idioma **English**.
+## Como remover
 
-## Como restaurar o jogo original
+### Windows e Linux
 
-Pela Steam:
+Apague estes arquivos/pastas da pasta do jogo:
 
-1. Clique com o botão direito no jogo.
-2. Vá em **Propriedades**.
-3. Vá em **Arquivos instalados**.
-4. Clique em **Verificar integridade dos arquivos**.
+- `BepInEx/`
+- `winhttp.dll`
+- `doorstop_config.ini`
+- `.doorstop_version`
 
-A Steam irá restaurar os arquivos originais.
+No Linux/Proton, remova também a opção de inicialização da Steam:
 
-## Observações
+`WINEDLLOVERRIDES="winhttp=n,b" %command%`
 
-- Esta é uma tradução feita por fã.
-- Não é uma tradução oficial.
-- O arquivo original `data.unity3d` não é distribuído.
-- A tradução usa patch `.xdelta`.
-- A versão Windows inclui `xdelta3.exe`.
-- O pacote inclui `README.md` e `LEIA-ME.txt` com instruções de instalação.
-- Se a Steam atualizar o jogo, pode ser necessário atualizar a tradução.
-- Os direitos de **Terraforming Mars Digital** pertencem aos seus respectivos proprietários.
+---
 
-Fonte do xdelta3 incluído na versão Windows:
+## Sobre antivírus / Windows Defender
 
-    https://github.com/jmacd/xdelta-gpl/releases
+Esta tradução usa **BepInEx**, uma ferramenta comum para mods de jogos Unity.
+
+Por isso, alguns antivírus podem alertar sobre arquivos como:
+
+- `winhttp.dll`
+- `TMPTBR.Plugin.dll`
+
+Isso acontece porque o BepInEx carrega o mod dentro do jogo.
+
+Se receber um alerta, baixe a tradução somente por este repositório oficial e confira o arquivo na aba **Releases**.
+
+Não recomendamos desativar o antivírus do sistema.
+
+---
+
+## Informações técnicas
+
+A versão runtime:
+
+- não altera `data.unity3d`;
+- não usa patch `.xdelta`;
+- carrega a tradução por arquivos `.tsv`;
+- aplica os textos em memória quando o jogo abre;
+- mantém o jogo original da Steam intacto.
+
+Arquivos principais:
+
+- `TMPTBR.Plugin.dll`
+- `ptbr_i2_master.tsv`
+- `ptbr_asmodee_master.tsv`
+
+---
+
+## Status
+
+Versão atual:
+
+**v1.0 BETA3**
+
+Testado em:
+
+- Steam Windows
+- Steam Linux usando Proton
+
+Pendente:
+
+- teste na versão Amazon Games;
+- revisão de alguns botões pequenos do login online.
+
+---
+
+## Aviso
+
+Esta é uma tradução feita por fã.
+
+Não é uma tradução oficial.
+
+Os direitos de Terraforming Mars Digital pertencem aos seus respectivos proprietários.
