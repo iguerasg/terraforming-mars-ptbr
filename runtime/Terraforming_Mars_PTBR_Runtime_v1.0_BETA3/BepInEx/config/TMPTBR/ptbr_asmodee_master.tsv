@@ -1,0 +1,151 @@
+key	text
+Chat.AdministrativeMessage.Welcome.ingame	Welcome in game. Be friendly and enjoy your game!
+Chat.AdministrativeMessage.Inappropriate.inappropriate	You are using inappropriate language. Please keep in mind we value a family-friendly spirit in our community. You could be muted or even banned if this kind of language continues. Thank you for your understanding and your attention.
+Chat.AdministrativeMessage.Report.advertisement	In case of inapropriate behavior, you can type '/report offender_name' and we will investigate. Thanks in advance for keeping a family-friendly spirit in our community.
+Chat.AdministrativeMessage.Report.thanks	Thank you for your report. Our customer service team will review it.
+Chat.AdministrativeMessage.Report.coolDown	You already sent a '/report'. Reporting has been suspended temporarily.
+Chat.AdministrativeMessage.Help.help	Commands:\n/help: display this message\n/report offender_name: report an inappropriate behavior\n/statistics: display statistics of the game at the current turn (number of forfeiters, number of active)
+Chat.AdministrativeMessage.Welcome.lobby	Welcome. Here you can meet other players to play games with you or just chat in a family-friendly spirit. To learn more about commands, type `/help`. Have fun!
+Chat.Pseudo.Me	Me
+Chat.Input.EnterText	Message
+Chat.Sentence.GoodGame.Summary	Good game
+Chat.Sentence.GoodGame	Good game! Waiting for the next one!
+Chat.Sentence.BadGame.Summary	Bad game
+Chat.Sentence.BadGame	Bad game for me :( I will do better next time
+Chat.Sentence.ToTheNextTime.Summary	See you!
+Chat.Sentence.ToTheNextTime	See you next time!
+Chat.Sentence.Oh.Summary	Oh
+Chat.Sentence.Oh	Ooooooooh
+Chat.Sentence.Waiting.Summary	Waiting!
+Chat.Sentence.Waiting	We are waiting for you! Move on!
+Chat.Whisper.Main	<i>[Private message] </i>
+Chat.Coppa	Chat is disabled\\n-\\n(Chidren Protection)
+Chat.NotConnectedToLobby	Connecting to the Lobby...
+Chat.Title	CHAT
+CommunityHub.LoginBanner.Login	Entrar
+CommunityHub.UserAccount.EditMyProfile	Editar meu perfil
+CommunityHub.UserAccount.Email	 e-mail
+CommunityHub.UserAccount.EmailSent	Enviamos um e-mail. Siga as instruções.
+CommunityHub.UserAccount.GetMyPassword	Redefinir senha
+CommunityHub.UserAccount.ID	ID
+CommunityHub.UserAccount.Logout	Sair
+CommunityHub.UserAccount.Name	Nome
+CommunityHub.UserAccount.SignUp	Registrar-se
+CommunityHub.UserAccount.UpdateMyEmail	Atualizar meu e-mail
+CommunityHub.PlayersLists.Rank	Classificação
+CommunityHub.PlayersLists.Score	Pontuação
+CommunityHub.PlayersLists.GameCount	Nº de partidas
+CommunityHub.PlayersLists.AddBuddy	Adicionar aos amigos
+CommunityHub.PlayersLists.RemoveBuddy	Remover dos amigos
+CommunityHub.PlayersLists.AddIgnore	Adicionar à lista de ignorados
+CommunityHub.PlayersLists.RemoveIgnore	Remover da lista de ignorados
+CommunityHub.PlayersLists.FilterText	Filtrar...
+CommunityHub.PlayersLists.Invite	Convidar
+CommunityHub.PlayersLists.ModuleLobbyPlayerList.Title	Lobby
+CommunityHub.PlayersLists.ModuleBuddyList.Title	Amigos
+CommunityHub.PlayersLists.ModuleIgnoredList.Title	Ignorados
+CommunityHub.PlayersLists.ModuleRecentOpponentList.Title	Oponentes recentes
+CommunityHub.PlayersLists.ModuleSearchList.Title	Buscar
+CommunityHub.PlayersLists.Search.Placeholder	Buscar
+CommunityHub.PlayersLists.Filter.Placeholder	Filtrar
+ServerStatisticsDisplay.PlayersInLobby.Single	{0} jogador no lobby
+ServerStatisticsDisplay.PlayersInLobby.Plural	{0} jogadores no lobby
+CrossPromo.button.boardgame	Board Game
+CrossPromo.button.comingsoon	Coming Soon
+CrossPromo.button.learnmore	Learn More
+CrossPromo.button.moregames	More games
+CrossPromo.button.playnow	Play Now
+CrossPromo.close	Close
+CrossPromo.ourothergamestitle	Check out our other games
+CrossPromo.tab.board	TableTop
+CrossPromo.tab.family	Family
+CrossPromo.tab.featured	Featured
+CrossPromo.tab.gamer	Advanced
+YOUR_TURN_ACTION	Play
+YT_INVITE_ACTION	Play
+YT_ROBOT_ACTION	Play
+INVITATION_ACTION	Play
+GAME_OVER_ACTION	Game Over
+YOUR_TURN	It is now your turn!
+YOUR_TURN_INVITE	It is your turn
+YOUR_TURN_ROBOT	It is now your turn!
+CONFIRM_INVITATION	You have been invited to play!
+GAME_OVER	A game just finished
+PushNotificationNull	NULL
+SSO.AccountCreationSuccess.LoginErrorMessage	Obrigado.\nUm e-mail de confirmação foi enviado para você.\nSua conta foi criada, mas não conseguimos fazer login automaticamente.\nTente novamente.
+SSO.AccountCreationSuccess.Message	Um e-mail de ativação foi enviado para seu endereço. Verifique sua caixa de entrada. Contas não ativadas serão excluídas após 7 dias.
+SSO.AccountCreationSuccess.Title	Conta criada
+SSO.AlreadyPlayedPanel.Message	Entre com sua conta <color=white>AsmoConnect</color> para jogar online. \nJá possui uma conta <color=white>AsmoConnect</color>?
+SSO.AlreadyPlayedPanel.SubMessage	Vamos ajudar você a encontrar sua conta
+SSO.AlreadyPlayedPanel.Title	Já jogou online antes?
+SSO.ChooseALoginPanel.LoginNameAvailable	ótima escolha
+SSO.ChooseALoginPanel.LoginNameUnAvailable	nome de usuário já em uso
+SSO.ChooseALoginPanel.LoginPLaceholder	usuário
+SSO.ChooseALoginPanel.Message	Escolha um nome de usuário e uma senha para sua conta:
+SSO.ChooseALoginPanel.PasswordLevel0	senha muito fraca
+SSO.ChooseALoginPanel.PasswordLevel1	senha fraca
+SSO.ChooseALoginPanel.PasswordLevel2	senha média
+SSO.ChooseALoginPanel.PasswordLevel3	senha boa
+SSO.ChooseALoginPanel.PasswordLevel4	senha excelente
+SSO.ChooseALoginPanel.PasswordPLaceholder	senha
+SSO.ChooseALoginPanel.PasswordStrengthMessage	Força da senha
+SSO.ChooseALoginPanel.Title	Crie sua conta
+SSO.Error.BadLoginPasswordCombination	Usuário e/ou senha incorretos. Verifique suas credenciais e tente novamente.
+SSO.Error.InvalidEmailOrPassword	E-mail ou senha inválidos.
+SSO.Error.LoginOrEmailBadlyFormatted	O usuário ou e-mail parece estar formatado incorretamente.\nO usuário deve ter no mínimo 4 caracteres e não pode usar caracteres especiais.
+SSO.Error.LoginOrEmailNotFound	Usuário ou e-mail não encontrado.
+SSO.Error.UnableToConnect	Não foi possível estabelecer conexão com o servidor. Verifique sua conexão com a internet ou tente novamente mais tarde.
+SSO.Error.UnexpectedSignUpError	Ocorreu um erro durante a criação da conta. Tente novamente.
+SSO.Error.WarningChooseALoginSlowResponse	A conexão parece estar anormalmente lenta...
+SSO.LoginPanel.LoginEmailInvalidMessage	Usuário ou e-mail inválido
+SSO.LoginPanel.Message	Digite seu usuário ou endereço de e-mail
+SSO.LoginPanel.Placeholder	usuário ou e-mail
+SSO.LoginPanel.Title	Login
+SSO.PasswordPanel.EmailSentMessage	Enviamos um e-mail para você. Siga as instruções.
+SSO.PasswordPanel.ForgotButton	Esqueceu sua senha?
+SSO.PasswordPanel.Message	Encontramos sua conta.
+SSO.PasswordPanel.PasswordInvalidMessage	Senha inválida
+SSO.PasswordPanel.Placeholder	senha
+SSO.PasswordPanel.Title	Senha
+SSO.PasswordReset.Message	Enviamos um e-mail para você. Siga as instruções.
+SSO.PasswordReset.Title	Redefinição de senha
+SSO.WelcomePanel.Message	Boas-vindas ao <color=white>AsmoConnect</color>\nVamos manter contato! Assine a newsletter para receber novidades sobre seus jogos favoritos.
+SSO.WelcomePanel.Placeholder	e-mail
+SSO.WelcomePanel.SubMessage	Manteremos seu e-mail confidencial
+SSO.WelcomePanel.SubscribedNewsletterMessage	Obrigado por assinar
+SSO.WelcomePanel.SubscribeNewsletterMessage	Assinar nossa newsletter
+SSO.WelcomePanel.Title	Boas-vindas!
+SSO.UpdateEmailPopUp.Title	e-mail
+SSO.ValidatedAccountMessageBoxController.Title	Confirme sua conta primeiro
+SSO.ValidatedAccountMessageBoxController.Message	Verifique sua caixa de e-mail para encontrar a mensagem de confirmação da conta e siga as instruções.\\nDepois disso, pressione o botão “Tentar novamente”.
+SSO.ValidatedAccountMessageBoxController.HelpMessage1	Não encontrou o e-mail? Verifique sua pasta de spam.
+SSO.ValidatedAccountMessageBoxController.HelpMessage2	Ainda nada? Enviamos para: 
+SSO.ValidatedAccountMessageBoxController.HelpMessage3	Use o botão “Enviar novamente” para receber outro e-mail.\nUse o botão “Alterar e-mail” para definir um novo endereço.
+SSO.ValidatedAccountMessageBoxController.TryAgain	Tentar novamente
+SSO.ValidatedAccountMessageBoxController.CorrectEmail	Alterar e-mail
+SSO.ValidatedAccountMessageBoxController.SendAgain	Enviar novamente
+SSO.ValidatedAccountMessageBoxController.Help	Ajuda
+SSO.ValidatedAccountMessageBoxController.ChangeEmailTitle	Alterar seu e-mail
+SSO.ValidatedAccountMessageBoxController.ChangeEmailMessage	Digite um novo e-mail para validar a conta
+SSO.ValidatedAccountMessageBoxController.ChangeEmailIdentical	E-mail idêntico; nenhuma alteração aplicada
+SSO.ValidatedAccountMessageBoxController.ChangeEmailInvalid	E-mail inválido; nenhuma alteração aplicada
+SSO.ValidatedAccountMessageBoxController.ChangeEmailAlreadyTaken	E-mail já em uso; nenhuma alteração aplicada
+SSO.ValidatedAccountMessageBoxController.Validate	Validar
+SSO.ValidatedAccountMessageBoxController.Cancel	Cancelar
+Standard.Alert.Back	Back
+Standard.Alert.Cancel	Cancel
+Standard.Alert.Continue	Continue
+Standard.Alert.No	No
+Standard.Alert.Ok	OK
+Standard.Alert.Skip	Skip
+Standard.Alert.Yes	Yes
+Standard.Error.MessageFormat	An error just occurred: {0}
+Standard.Error.Title	Error
+Standard.NbDays.Format	{0} days
+Standard.NbDays.ShortFormat	{0} d
+Standard.NbHours.Format	{0} hours
+Standard.NbHours.ShortFormat	{0} h
+Standard.NbMinutes.Format	{0} minutes
+Standard.NbMinutes.ShortFormat	{0} min
+Standard.NbSeconds.Format	{0} seconds
+Standard.NbSeconds.ShortFormat	{0} s
