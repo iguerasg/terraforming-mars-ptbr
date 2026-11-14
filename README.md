@@ -53,7 +53,13 @@ Arquivo recomendado:
 
 `instalar_windows.bat`
 
-5. Abra o Terraforming Mars pela Steam.
+O instalador procura o jogo nas bibliotecas Steam e nos manifests da Epic Games Launcher. Se não encontrar automaticamente, rode no PowerShell, informando a pasta que contém `TerraformingMars.exe`:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\instalar_windows.ps1 -Caminho "C:\caminho\para\Terraforming Mars"
+```
+
+5. Abra o Terraforming Mars pela Steam ou Epic Games Launcher.
 6. Deixe o idioma do jogo como **English**.
 
 Pronto. O jogo deverá aparecer em Português do Brasil.
@@ -144,6 +150,7 @@ Testado em:
 
 - Steam Windows
 - Steam Linux usando Proton
+- Epic Games Launcher no Windows
 
 Pendente:
 
